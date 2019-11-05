@@ -58,7 +58,7 @@
             <div id="main_tip_search">
             </div>
           </div>
-          <div class="col-6 col-lg-1">
+          <div class="col-8 col-lg-1">
             <form>
               <input type="text" name="search" id="tip_search_input" placeholder="Искать уроки" list="search" autocomplete=off required>
             </form>
@@ -73,30 +73,30 @@
   <!-- NAVBAR -->
   <div class="container-fluid bg-white pb-2">
     <div class="row">
-      <div class="col-lg-1 col-5 offset-lg-3">
+      <div class="col-lg-1 col-3 offset-lg-3">
         <a href="/" class="top">
           <div class="top-rated">Уроки</div>
         </a>
 
       </div>
-      <div class="col-lg-4 col-6">
+      <div class="col-lg-4 col-4">
         <a href="/contacts">
           <div class="top-rated">Контакты</div>
         </a>
       </div>
-      <div class="col-lg-3 col-12 ml-4">
+      <div class="col-lg-3 col-5 ml-lg-4">
         <div class="row pt-3 pl-lg-5">
-          <div class="col-1 pl-2 icon">
-            <a class="" href="https://www.youtube.com/channel/UC5AmTcY1fmIi6FTVQtZrKZA"><img src="/img/yt-logo.jpg" alt="theme" title="Youtube" height="28" width="28"></a>
+          <div class="col-1 pl-lg-2 icon">
+            <a class="" href="https://www.youtube.com/channel/UC5AmTcY1fmIi6FTVQtZrKZA"><img src="/img/yt-logo.jpg" alt="theme" title="Youtube" height="24" width="24"></a>
           </div>
-          <div class="col-1 pl-2 icon">
-            <a class="" href="https://vk.com/id10362180"><img src="/img/vk-logo.png" alt="theme" title="VK" height="28" width="28"></a>
+          <div class="col-1 pl-lg-2 icon">
+            <a class="" href="https://vk.com/id10362180"><img src="/img/vk-logo.png" alt="theme" title="VK" height="24" width="24"></a>
           </div>
-          <div class="col-1 pl-2 icon">
-            <a class="icon" href="https://instagram.com"><img src="/img/insta-logo.png" alt="theme" title="Instagram" height="28" width="28"></a>
+          <div class="col-1 pl-lg-2 icon">
+            <a class="icon" href="https://instagram.com"><img src="/img/insta-logo.png" alt="theme" title="Instagram" height="24" width="24"></a>
           </div>
-          <div class="col-1 pl-2 icon">
-            <a class="icon" href="https://telegram.com"><img src="/img/insta-logo.png" alt="theme" title="Telegram" height="28" width="28"></a>
+          <div class="col-1 pl-lg-2 icon">
+            <a class="icon" href="https://telegram.com"><img src="/img/insta-logo.png" alt="theme" title="Telegram" height="24" width="24"></a>
           </div>
         </div>
       </div>

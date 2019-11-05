@@ -21,11 +21,12 @@
           </div>
         </div>
 
-        <div class="title-item">
+
+        <div class="title-item mt-2">
           <div id="title-description">{{ $lesson->description }}</div>
         </div>
-
-        <div class="post-reply">
+        <hr>
+        <div class="post-reply mb-2 ml-5">
           <div id="title-post-send">Комментарии</div>
           <hr>
           <div class="image-reply-post"></div>
@@ -35,12 +36,12 @@
 
         <div class="post-send">
           <div id="main-post-send">
-            <div id="title-post-send">Добавить комментарии</div>
-            <form id="contact" method="post" action="comment/">
+            <div class="my-3" id="title-post-send">Добавить комментарии</div>
+            <form class="mb-3" id="contact" method="post" action="comment/">
               <fieldset>
                 <p><textarea id="message" name="message" maxlength="500" placeholder="Пишите тут" tabindex="5" cols="30" rows="4"></textarea></p>
               </fieldset>
-              <div style="text-align:center;"><input type="submit" name="envoi" value="Отправить" /></div>
+              <div class="post-send mt-4" style="text-align:center;"><input type="submit" name="envoi" value="Отправить" /></div>
             </form>
           </div>
         </div>

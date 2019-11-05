@@ -328,15 +328,10 @@ html {
 .top-rated :hover,
 .recent :hover,
 .oldies :hover {
-  color: #CCC;
+  color: gray;
   opacity: 1;
 }
 
-.top,
-top-rated {
-  text-decoration: none;
-   !important
-}
 
 #fleche-nav-1,
 #fleche-nav-2,
@@ -487,13 +482,13 @@ top-rated {
 
 .work figure {
 
-  width: calc(100%);
+
   height: auto;
   line-height: auto;
   position: relative;
   padding: 0 !important;
-  margin: 15px;
   transition: all 0.3s ease-in-out;
+  margin: 15px;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -821,10 +816,6 @@ top-rated {
 
 .copyright {
   position: relative;
-  width: 1200px;
-  left: 50%;
-  height: 100%;
-  top: 0;
 }
 
 .copy-text {
