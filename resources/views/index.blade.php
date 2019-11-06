@@ -4,9 +4,9 @@
 <!-- PORTFOLIO -->
 
 
-<div class="container-fluid mb-5">
+<div class="container mb-5">
   <div class="row myrow">
-    <div class="col-lg-4 col-md-12 col-12 mt-4">
+    <div class="col-lg-4 col-md-12 col-12 mt-3">
       <div class="list-group list-group-flush d-none d-lg-block">
         <a href="#" class="list-group-item list-group-item-action">
           <h5 class="Стойка со штангой">Стойка со штангой</h5>
@@ -41,8 +41,8 @@
       </div>
     </div>
 
-    <div class="col-lg-8 col-12" id="main-container-image">
-      <div class="row row-card">
+    <div class="col-lg-8 col-12 bg-lights px-1 my-3" id="main-container-image">
+      <div class="row">
 
         @foreach($lessons as $lesson)
 

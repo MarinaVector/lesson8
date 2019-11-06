@@ -403,7 +403,6 @@ html {
   height: auto;
 }
 
-.container,
 .container-footer {
   position: relative;
 }
@@ -473,7 +472,7 @@ html {
 /* MAIN DIV WITH IMAGE */
 /*----------------------------*/
 
-#main-container-image {
+#main-container-images {
   background-color: #fafafa;
   margin-top: 25px;
   opacity: 0;
@@ -686,7 +685,7 @@ html {
 
 #wrapper-thank {
   background-color: #F2F2F2;
-  margin-top: 40px;
+  margin-top: 15px;
 }
 
 #wrapper-oldnew {
@@ -871,24 +870,6 @@ html {
 
 /* Others wide screen */
 
-...@media only screen and (max-width: 1200px) {
-
-  #main-header,
-  .navbar,
-  .container,
-  .container-footer,
-  .thank,
-  .oldnew,
-  .copyright {}
-
-  #main-container-menu {
-    display: none;
-  }
-
-  .work figure {
-    width: calc(100% / 2 - 30px);
-  }
-}
 
 /* Small viewports � Old monitors, netbooks, tablets (landscape), etc. */
 
@@ -1137,4 +1118,8 @@ html {
 .myrow {
   margin-left: 0;
   margin-right: 0;
+}
+
+.bg-lights {
+  background-color: #fafafa !important
 }
